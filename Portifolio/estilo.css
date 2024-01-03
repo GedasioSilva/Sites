@@ -5,7 +5,6 @@ html body{
     box-sizing: border-box;
 }
 .conteudo{
-    
     font-family: 'Dancing Script', cursive;
     font-family: 'Noto Sans JP', sans-serif;
     font-family: 'Playfair Display', serif;
@@ -27,7 +26,7 @@ html body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .logo span{
-    color: rgb(107, 14, 14);
+    color: #f4024c;
 }
 .listas a{
     text-decoration: none;
@@ -35,78 +34,38 @@ html body{
     font-size: 18px;
     color: white;
 }
+.listas a:hover{
+   border-bottom: 1px solid white;
+}
 .banner{
-    background-image: url("arquivos/img/Fundo03.gif");
+    background-image: url("arquivos/img/Fundo02.gif");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    justify-content: space-around;
+    justify-content: start;
     width: 100%;
-    height: 500px;
+    height:40vw;
     color: white;
-    background-color: black;
 }
-.imagem{
-    width: 400px;  
-}
-.img-perfil{
-    border-radius: 100%;
-}
+
 .texto{
-    line-height:16px;
-    text-align: center;
+    margin: 0px 110px;
+    line-height:3px;
 }
 .texto h1{
-    color:rgb(241, 18, 186);
-    font-size: 28px;
-}
-.texto h2{
     font-size: 50px;
 }
-.texto h3{
+.sobrenome{
+    color: #f4024c;
+}
+.texto p{
     font-size: 20px;
+    font-weight:normal;
 }
-img{
-    padding:0px;
-    margin: 0px;
-
-    width: 33px;
-}
-.img-perfil{
-    width: 100%;
-    height: 100%;
-}
-@media screen and (min-width:0px) and (max-width:500px){
-    .banner{
-        height: 550px;
-    }
-   .texto{
-    font-size:22px;
-   }
-   .imagem{
-    width: 300px;  
-    }
-}
-@media screen and (min-width:501px) and (max-width:800px){
-    .banner{
-        height: 640px;
-    }
-   .texto{
-    font-size:24px;
-   }
-   .imagem{
-    width: 350px;  
-    }
-}
-@media screen and (min-width:801px) and (max-width:1500px){
-    .banner{
-        height: 660px;
-    }
-   .texto{
-    font-size:30px;
-   }
+.social-media{
+    width: 40px;
 }
 .sobre{
     width:100%;
@@ -116,15 +75,15 @@ img{
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    background-color:black;
 }
-
 .sobre div{
     max-width:400px;
     width: 300px;
     height: 400px;
     margin: 0px;
     padding: 0px;
-    padding: 30px 30px;
+    padding: 30px 10px;
 }
 .sobre-txt{
     margin:0px 10px;
@@ -133,12 +92,24 @@ img{
     width:300px;
     color: white;
 }
-.sobre-txt button{
+.sobre h1{
+    font-size: 18px;
+    text-align: center;
+}
+.sobre h2{
+    font-size: 20px;
+    text-align: center;
+}
+.sobre p{
+    text-align: justify;
+}
+.botao{
+    margin: 10px 0px;
     width: 100px;
     padding: 10px;
     border-radius: 100px;
     border: none;
-    background-color: rgb(184, 38, 62);
+    background-color:#f4024c;
 }
 .sobre-txt button:hover{
     background-color: white;
@@ -156,17 +127,68 @@ img{
     height: 100%;
 }
 .sobre-perfil img{
-    width: 300px;
-    height: 100%;
+    width: 250px;
+    height: 350px;
     border-radius:50px;
 }
-.Projetos{
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
+.corpo-projetos h1{
+    margin: 0px;
+    padding:10px 0px;
     color: white;
     text-align: center;
-    height: 400px;
+    background-color: #191919;
+}
+.conteudo-projetos{
+    background-color: #191919;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.projetos{
+    margin: 30px 0px;
+    width: 400px;
+    height: 200px;
+}
+.projetos img{
+    width: 100%;
+    height: 100%;
+}
+.rodape{
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.texto-rodape{
+    font-size: 26px;
+    line-height:6px;
+    color: white;
+
+}
+.texto-rodape h1{
+    color: #f4024c;
+    font-size: 22px;
+    text-align: center;
+    padding: 10px 0px;
+}
+.texto-rodape h2{
+    font-weight: bolder;
+    font-size: 16px;
+}
+.texto-rodape p{
+    font-weight: bolder;
+    font-size: 15px;
+    text-align: center;
+}
+.rodape p{
+    font-size: 18px;
+}
+.imagens-rodape{
+    margin: 30px 0px;
+    display: flex;
+    justify-content: center;
 }
 
