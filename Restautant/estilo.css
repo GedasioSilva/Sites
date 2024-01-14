@@ -1,0 +1,94 @@
+*{
+    margin: 0 auto;
+    max-width: 1500px;
+    padding: 0px;
+    color: white;
+}
+main{
+    background-color:#964b00;
+}
+.menu{
+    background-color:#964b00;
+    width: 100%;
+    padding: 10px 0px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-flow: row wrap;
+}
+.logo img{
+    width: 80px;
+}
+.linhas,li{
+    padding:0 10px;
+    display: inline-block;
+    font-size: 18px;
+}
+.linhas li:hover{
+    border-bottom: 1px solid white;
+}
+.banner{
+    margin: 30px 0px;
+    background-color: black;
+    height: 40vw;
+    height: 400px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content:flex-start;
+    line-height: 30px;
+    padding: 0 30px;
+    background-image: url("img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cardapio{
+    background-image: url("img/fundo-menu02.jpg");
+    background-size: contain;
+}
+.botao-pedido{
+    padding: 5px 15px;
+}
+
+.texto-cardapio{
+    text-align: center;
+    margin: 0px 30px;
+    line-height: 30px;
+}
+.tipos-Pizzas{
+    max-width: 1000px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.pizzas{
+    padding: 10px;
+    box-shadow: 1px 1px 10px 1px black;
+    width: 300px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.pizzas:hover{
+    zoom:101%;
+}
+.pizzas figcaption{
+    text-align: center;
+    padding:20px 0px;
+    width: 100%;
+    background-color: rgb(97, 61, 7);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.pizzas img{
+    width: 300px;
+    height: 320px;
+}
+footer{
+    position: relative;
+}
+.subir img{
+    position:absolute;
+    width: 40px;
+    top: 10px;
+    right: 10px;
+}
