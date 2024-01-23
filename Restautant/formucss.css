@@ -1,0 +1,59 @@
+*{
+    margin: 0px auto;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+main{
+    background-image: url("img/fundo-menu02.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.conteudo{
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-items: center;
+    width: 500px;
+    height: 100%;
+    box-sizing: border-box;
+}
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    margin: 0px 30px;
+}
+.formu{
+    width: 400px;
+}
+.input-waper{
+    box-sizing: border-box;
+    display: flex;
+    padding: 8px 12px;
+    align-items: center;
+    gap:6px;
+    text-align: center;
+    
+}
+legend{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+input{
+    width: 90%;
+}
+
+.bt{
+    background-color: chocolate;
+    cursor: pointer;
+    height: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+    font-size: 20px;
+}
